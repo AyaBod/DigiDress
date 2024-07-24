@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5114C72C4489A800B8BAC2 /* DigiDress2_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE2F2C3C2623001BD394 /* DigiDress2_2.xcdatamodeld */; };
+		5B5114C82C4489B000B8BAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B99EE342C3C2625001BD394 /* LaunchScreen.storyboard */; };
+		5B5114CC2C44B65A00B8BAC2 /* clothClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5114CB2C44B65A00B8BAC2 /* clothClassifier.swift */; };
+		5B5114D02C44C2BA00B8BAC2 /* clothingClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5B5114CF2C44C2BA00B8BAC2 /* clothingClassification.mlmodel */; };
+		5B5114D22C44CA3E00B8BAC2 /* OverallAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5114D12C44CA3E00B8BAC2 /* OverallAnalysisViewController.swift */; };
+		5B5114D42C44D0E700B8BAC2 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5114D32C44D0E700B8BAC2 /* AlbumManager.swift */; };
 		5B99EE272C3C2623001BD394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE262C3C2623001BD394 /* AppDelegate.swift */; };
 		5B99EE292C3C2623001BD394 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE282C3C2623001BD394 /* SceneDelegate.swift */; };
 		5B99EE2B2C3C2623001BD394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE2A2C3C2623001BD394 /* ViewController.swift */; };
 		5B99EE2E2C3C2623001BD394 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B99EE2D2C3C2623001BD394 /* Base */; };
-		5B99EE312C3C2623001BD394 /* DigiDress2_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE2F2C3C2623001BD394 /* DigiDress2_2.xcdatamodeld */; };
 		5B99EE332C3C2625001BD394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B99EE322C3C2625001BD394 /* Assets.xcassets */; };
 		5B99EE362C3C2625001BD394 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B99EE352C3C2625001BD394 /* Base */; };
 		5B99EE412C3C2626001BD394 /* DigiDress2_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE402C3C2626001BD394 /* DigiDress2_2Tests.swift */; };
 		5B99EE4B2C3C2626001BD394 /* DigiDress2_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE4A2C3C2626001BD394 /* DigiDress2_2UITests.swift */; };
 		5B99EE4D2C3C2626001BD394 /* DigiDress2_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE4C2C3C2626001BD394 /* DigiDress2_2UITestsLaunchTests.swift */; };
+		5B99EE5A2C3C43AC001BD394 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE592C3C43AC001BD394 /* PhotoCollectionViewCell.swift */; };
+		5B99EE5C2C3D7F1C001BD394 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE5B2C3D7F1C001BD394 /* PhotoLibraryViewController.swift */; };
+		5B99EE5E2C3D8702001BD394 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99EE5D2C3D8702001BD394 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B5114CB2C44B65A00B8BAC2 /* clothClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clothClassifier.swift; sourceTree = "<group>"; };
+		5B5114CF2C44C2BA00B8BAC2 /* clothingClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = clothingClassification.mlmodel; sourceTree = "<group>"; };
+		5B5114D12C44CA3E00B8BAC2 /* OverallAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallAnalysisViewController.swift; sourceTree = "<group>"; };
+		5B5114D32C44D0E700B8BAC2 /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
 		5B99EE232C3C2623001BD394 /* DigiDress2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiDress2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B99EE262C3C2623001BD394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B99EE282C3C2623001BD394 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,9 @@
 		5B99EE462C3C2626001BD394 /* DigiDress2.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiDress2.2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B99EE4A2C3C2626001BD394 /* DigiDress2_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiDress2_2UITests.swift; sourceTree = "<group>"; };
 		5B99EE4C2C3C2626001BD394 /* DigiDress2_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiDress2_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B99EE592C3C43AC001BD394 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B99EE5B2C3D7F1C001BD394 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		5B99EE5D2C3D8702001BD394 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,13 @@
 				5B99EE342C3C2625001BD394 /* LaunchScreen.storyboard */,
 				5B99EE372C3C2625001BD394 /* Info.plist */,
 				5B99EE2F2C3C2623001BD394 /* DigiDress2_2.xcdatamodeld */,
+				5B99EE592C3C43AC001BD394 /* PhotoCollectionViewCell.swift */,
+				5B99EE5B2C3D7F1C001BD394 /* PhotoLibraryViewController.swift */,
+				5B99EE5D2C3D8702001BD394 /* Album.swift */,
+				5B5114CB2C44B65A00B8BAC2 /* clothClassifier.swift */,
+				5B5114CF2C44C2BA00B8BAC2 /* clothingClassification.mlmodel */,
+				5B5114D12C44CA3E00B8BAC2 /* OverallAnalysisViewController.swift */,
+				5B5114D32C44D0E700B8BAC2 /* AlbumManager.swift */,
 			);
 			path = DigiDress2.2;
 			sourceTree = "<group>";
@@ -237,6 +259,7 @@
 				5B99EE332C3C2625001BD394 /* Assets.xcassets in Resources */,
 				5B99EE362C3C2625001BD394 /* Base in Resources */,
 				5B99EE2E2C3C2623001BD394 /* Base in Resources */,
+				5B5114C82C4489B000B8BAC2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5114D42C44D0E700B8BAC2 /* AlbumManager.swift in Sources */,
+				5B5114D22C44CA3E00B8BAC2 /* OverallAnalysisViewController.swift in Sources */,
 				5B99EE2B2C3C2623001BD394 /* ViewController.swift in Sources */,
+				5B99EE5A2C3C43AC001BD394 /* PhotoCollectionViewCell.swift in Sources */,
+				5B99EE5C2C3D7F1C001BD394 /* PhotoLibraryViewController.swift in Sources */,
+				5B5114D02C44C2BA00B8BAC2 /* clothingClassification.mlmodel in Sources */,
 				5B99EE272C3C2623001BD394 /* AppDelegate.swift in Sources */,
-				5B99EE312C3C2623001BD394 /* DigiDress2_2.xcdatamodeld in Sources */,
+				5B5114C72C4489A800B8BAC2 /* DigiDress2_2.xcdatamodeld in Sources */,
+				5B99EE5E2C3D8702001BD394 /* Album.swift in Sources */,
 				5B99EE292C3C2623001BD394 /* SceneDelegate.swift in Sources */,
+				5B5114CC2C44B65A00B8BAC2 /* clothClassifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DigiDress2.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DigiDress2.2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -474,7 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DigiDress2.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DigiDress2.2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
